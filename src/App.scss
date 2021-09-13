@@ -1,0 +1,15 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+#app_div{
+    width: 100%;
+    height: auto;
+    min-height: 500px;
+}
