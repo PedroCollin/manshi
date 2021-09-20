@@ -5,6 +5,11 @@
                 <h5>{{text_title}}</h5>
                 <p>{{text_content}}</p>
             </div>
+            <div id="card_images">
+                <div class="card_image" v-for="(image,index) in imgs" :key="index">
+                    <img :src="image" :alt="index">
+                </div>
+            </div>
         </section>
     </div>
 </template>

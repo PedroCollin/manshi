@@ -1,1 +1,34 @@
-/* No CSS *//*# sourceMappingURL=Cardinfo.css.map */
+#cardinfo {
+  width: 100%;
+  height: auto;
+  background-color: var(--myback);
+}
+
+#cardinfo .card-body {
+  color: var(--mycolor);
+}
+
+#cardinfo #card_images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#cardinfo img {
+  width: 350px;
+  height: 350px;
+  margin: 10px;
+}
+/*# sourceMappingURL=Cardinfo.css.map */

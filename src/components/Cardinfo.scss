@@ -1,0 +1,25 @@
+#cardinfo{
+    width: 100%;
+    height: auto;
+    background-color: var(--myback);
+
+
+    .card-body{
+        color: var(--mycolor);
+    }
+
+    #card_images{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+        img{
+            width: 350px;
+            height: 350px;
+            margin: 10px;
+        }
+
+}

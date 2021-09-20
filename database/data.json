@@ -4,5 +4,19 @@
             "id": "1",
             "nome": "Sushi" 
         }
+    ],
+    "imgback":[
+        {
+            "id" : "1",
+            "source" : "/images/premium.jpg"
+        },
+        {
+            "id" : "2",
+            "source" : "/images/premiu2.jpg"
+        },
+        {
+            "id" : "3",
+            "source" : "/images/premiu3.jpg"
+        }
     ]
 }
