@@ -21,4 +21,9 @@
   color: var(--mycolor);
   text-decoration: none;
 }
+
+#navbar #myLogo {
+  width: 30px;
+  height: 30px;
+}
 /*# sourceMappingURL=Navbar.css.map */

@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <h1>Home</h1>
+    <h1>Bem vindo ao <br> Roberto Manshi </h1>
   </div> 
 </template>
 
@@ -10,3 +10,8 @@ export default {
     name: 'Home',
 }
 </script>
+
+
+<style scoped src="./Home.css">
+
+</style>
