@@ -32,6 +32,11 @@ export default {
         const request = await fetch('http://localhost:3000/imgback');
         const jsonData = await request.json();
         console.log(jsonData)
+        for(let i = 0; i < jsonData.length; i++){
+          console.log(jsonData[i].source)
+          this.my_imgs.push(jsonData[i].source)
+        }
+        console.log(this.my_imgs)
       }
     },
     mounted() {
